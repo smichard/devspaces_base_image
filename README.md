@@ -3,6 +3,7 @@
 This repository contains the Containerfile and related resources for building a base image tailored for use with [Red Hat OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces/overview). The image is designed to provide a robust and versatile development environment, integrating tools like Skaffold, Tekton CLI, Argo CD CLI, and Oh-My-ZSH.
 
 [![Container Repository on Quay](https://quay.io/repository/michard/devspaces_base_image/status "Container Repository on Quay")](https://quay.io/repository/michard/devspaces_base_image)
+[![Docker Repository on Quay](https://quay.io/repository/michard/devspaces_base_image/status "Docker Repository on Quay")](https://quay.io/repository/michard/devspaces_base_image)
 [![Start Dev Space](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.ocp.michard.cc#https://github.com/smichard/devspaces_base_image)
 
 ## Table of Contents
@@ -15,7 +16,7 @@ This repository contains the Containerfile and related resources for building a 
 
 ## Introduction
 
-This project aims to streamline the setup process for development environments, leveraging the power of containerization and Red Hat DevSpaces. It provides a pre-configured Docker image based on `registry.redhat.io/devspaces/udi-rhel8:3.10-27`, which includes a suite of essential development tools.
+This project aims to streamline the setup process for development environments, leveraging the power of containerization and Red Hat DevSpaces. It provides a pre-configured container image based on `registry.redhat.io/devspaces/udi-rhel8:3.10-27`, which includes a suite of essential development tools.
 
 ## Getting Started
 
