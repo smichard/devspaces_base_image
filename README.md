@@ -19,7 +19,7 @@ This project aims to streamline the setup process for development environments, 
 
 ## Getting Started
 
-To use this repository, you need to have Docker installed and running on your machine. Clone this repository to your local machine to get started:
+To use this repository, ensure you have Podman / Docker installed and running on your machine. Clone this repository to your local machine to get started:
 
 ```bash
 git clone https://github.com/smichard/devspaces_base_image.git
@@ -31,7 +31,7 @@ cd devspaces_base_image
 To build the container image, run the following command in the root directory of this repository:
 
 ```bash
-docker build -t devspaces_base_image .
+podman build -t devspaces-base-image .
 ```
 
 ## Tools Included
