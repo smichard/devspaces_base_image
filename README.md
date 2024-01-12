@@ -2,7 +2,7 @@
 
 This repository contains the Containerfile and related resources for building a base image tailored for use with [Red Hat OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces/overview). The image is designed to provide a robust and versatile development environment, integrating tools like Skaffold, Tekton CLI, Argo CD CLI, and Oh-My-ZSH.
 
-[![Container Registry on Quay](https://img.shields.io/badge/Quay-Container_Registry-ee0000 "Container Registry on Quay")](https://quay.io/repository/michard/devspaces_base_image)
+[![Container Registry on Quay](https://img.shields.io/badge/Quay-Container_Registry-46b9e5 "Container Registry on Quay")](https://quay.io/repository/michard/devspaces_base_image)
 [![Start Dev Space](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.ocp.michard.cc#https://github.com/smichard/devspaces_base_image)
 
 ## Table of Contents
