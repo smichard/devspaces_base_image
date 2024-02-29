@@ -3,12 +3,9 @@ FROM registry.redhat.io/devspaces/udi-rhel8:3.11-14
 USER 0
 
 RUN dnf -y update --allowerasing && \
-    dnf -y install zsh util-linux-user hostname --allowerasing && \
+    dnf -y install zsh util-linux-user --allowerasing && \
     dnf clean all && \
     rm -rf /var/cache/yum
-
-# Setting the hostname
-RUN hostname devspace
 
 # Install Skaffold
 RUN curl -sSL https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64 -o /usr/local/bin/skaffold && \
@@ -30,6 +27,9 @@ RUN wget https://dl.min.io/client/mc/release/linux-amd64/mc && \
 # Install and configure Oh-My-ZSH
 RUN sed -i 's#/bin/bash#/bin/zsh#g' /etc/passwd && \
     wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh && \
-    wget -O ~/.zshrc https://gist.githubusercontent.com/smichard/bd86a05ed89a92e364e65ea3ada8e19d/raw/a3cbe29982395dd6fb3fb5d6c604385bb57a0961/my_theme.zshrc
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && \
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k && \
+    wget -O ~/.zshrc https://gist.githubusercontent.com/smichard/aa95623add96c4405f1314bdf9f6784d/raw/142dba6a8340d171c3371c8507ff67362ccaa0fb/my_theme_10k.zshrc && \
+    wget -O ~/.p10k.zsh https://gist.githubusercontent.com/smichard/e91215bc02017fa6aa5bf9ecb4b14ca5/raw/552b86a0c7e05f0bcdb88a40d8d620fee2a82033/my_p10k.zsh
 
 USER 10001
