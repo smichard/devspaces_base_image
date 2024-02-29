@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.7 (2024-02-29)
+
+### Bug Fixes
+- :bug: sequence adjusted [`2470ae9`](https://github.com/smichard/devspaces_base_image/commit/2470ae9)
+
+### Documentation
+- :robot: changelog file generated [`aa71ccf`](https://github.com/smichard/devspaces_base_image/commit/aa71ccf)
+
 ## 0.1.6 (2024-02-29)
 
 ### Feature
