@@ -3,7 +3,7 @@ FROM registry.redhat.io/devspaces/udi-rhel8:3.11-14
 USER 0
 
 RUN dnf -y update --allowerasing && \
-    dnf -y install zsh util-linux-user --allowerasing hostname && \
+    dnf -y install zsh util-linux-user hostname --allowerasing && \
     dnf clean all && \
     rm -rf /var/cache/yum
 
