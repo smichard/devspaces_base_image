@@ -2,8 +2,8 @@ FROM registry.redhat.io/devspaces/udi-rhel8:3.10-27
 
 USER 0
 
-RUN dnf -y update && \
-    dnf -y install zsh util-linux-user && \
+RUN dnf -y update --allowerasing && \
+    dnf -y install zsh util-linux-user --allowerasing && \
     dnf clean all && \
     rm -rf /var/cache/yum
 
