@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.9 (2024-02-29)
+
+### Feature
+- :sparkles: Powerlevel10k theme and autosuggestions added [`53da196`](https://github.com/smichard/devspaces_base_image/commit/53da196)
+
+### Documentation
+- :robot: changelog file generated [`54f5cb5`](https://github.com/smichard/devspaces_base_image/commit/54f5cb5)
+
 ## 0.1.8 (2024-02-29)
 
 ### Bug Fixes
