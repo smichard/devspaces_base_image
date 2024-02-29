@@ -19,6 +19,11 @@ RUN curl -L https://github.com/tektoncd/cli/releases/download/v0.33.0/tkn_0.33.0
 RUN curl -sSL https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64 -o /usr/local/bin/argocd && \
     chmod +x /usr/local/bin/argocd
 
+# Install minio client
+RUN wget https://dl.min.io/client/mc/release/linux-amd64/mc && \
+    chmod +x mc && \
+    mv mc /usr/local/bin/mc
+
 # Install and configure Oh-My-ZSH
 RUN sed -i 's#/bin/bash#/bin/zsh#g' /etc/passwd && \
     wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh && \
