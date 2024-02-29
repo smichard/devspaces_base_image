@@ -4,21 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-## Unreleased changes
+## 0.1.3 (2024-02-29)
 
 ### Feature
+- :sparkles: added minio client to dev container [`ed1d3eb`](https://github.com/smichard/devspaces_base_image/commit/ed1d3eb)
 - :sparkles: GitHub Action added [`434253f`](https://github.com/smichard/devspaces_base_image/commit/434253f)
 - :sparkles: workflow extended [`982f960`](https://github.com/smichard/devspaces_base_image/commit/982f960)
 
 ### Continuous Integration
+- :robot: merge pull request #13 from smichard/renovate/smichard-conventional_changelog-2.x [`3f445bf`](https://github.com/smichard/devspaces_base_image/commit/3f445bf)
+- :robot: merge pull request #12 from smichard/renovate/quay.io-michard-tekton_base_image-0.x [`8ed3925`](https://github.com/smichard/devspaces_base_image/commit/8ed3925)
 - :robot: merge pull request #11 from smichard/renovate/smichard-conventional_changelog-2.x [`58644a1`](https://github.com/smichard/devspaces_base_image/commit/58644a1)
 - :robot: merge pull request #9 from smichard/renovate/smichard-conventional_changelog-1.x [`66912e9`](https://github.com/smichard/devspaces_base_image/commit/66912e9)
 
 ### Documentation
+- :robot: changelog file generated [`1eec90a`](https://github.com/smichard/devspaces_base_image/commit/1eec90a)
 - :robot: changelog file generated [`c1bdda2`](https://github.com/smichard/devspaces_base_image/commit/c1bdda2)
 - :art: badges added to readme [`8b5d5a4`](https://github.com/smichard/devspaces_base_image/commit/8b5d5a4)
 
 ### Chore
+- update smichard/conventional_changelog action to v2.0.4 [`4614370`](https://github.com/smichard/devspaces_base_image/commit/4614370)
+- update quay.io/michard/tekton_base_image docker tag to v0.1.13 [`e157e62`](https://github.com/smichard/devspaces_base_image/commit/e157e62)
+- update smichard/conventional_changelog action to v2.0.3 [`cbe00b2`](https://github.com/smichard/devspaces_base_image/commit/cbe00b2)
+- update quay.io/michard/tekton_base_image docker tag to v0.1.11 [`aaf3526`](https://github.com/smichard/devspaces_base_image/commit/aaf3526)
 - update smichard/conventional_changelog action to v2 [`1630582`](https://github.com/smichard/devspaces_base_image/commit/1630582)
 - update smichard/conventional_changelog action to v1 [`a6f81ec`](https://github.com/smichard/devspaces_base_image/commit/a6f81ec)
 
@@ -26,6 +34,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - :art: name of workflow adjusted [`f5efafd`](https://github.com/smichard/devspaces_base_image/commit/f5efafd)
 
 ### Other
+- Merge pull request #14 from smichard/renovate/quay.io-michard-tekton_base_image-0.x [`4f44b62`](https://github.com/smichard/devspaces_base_image/commit/4f44b62)
+- Merge pull request #15 from smichard/renovate/smichard-conventional_changelog-2.x [`6dbb8dc`](https://github.com/smichard/devspaces_base_image/commit/6dbb8dc)
 - Merge pull request #3 from smichard/renovate/actions-checkout-4.x [`7297d9e`](https://github.com/smichard/devspaces_base_image/commit/7297d9e)
 - Merge pull request #2 from smichard/renovate/anothrnick-github-tag-action-1.x [`23164cb`](https://github.com/smichard/devspaces_base_image/commit/23164cb)
 - Merge pull request #8 from smichard/renovate/quay.io-michard-tekton_base_image-0.x [`7864ad2`](https://github.com/smichard/devspaces_base_image/commit/7864ad2)
