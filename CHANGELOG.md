@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.10 (2024-02-29)
+
+### Documentation
+- :robot: changelog file generated [`bd5ebf7`](https://github.com/smichard/devspaces_base_image/commit/bd5ebf7)
+
+### Chore
+- update quay.io/michard/devspaces_base_image docker tag to v0.1.9 [`a94b13d`](https://github.com/smichard/devspaces_base_image/commit/a94b13d)
+
 ## 0.1.9 (2024-02-29)
 
 ### Feature
