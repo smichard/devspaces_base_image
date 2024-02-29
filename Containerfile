@@ -5,8 +5,10 @@ USER 0
 RUN dnf -y update --allowerasing && \
     dnf -y install zsh util-linux-user --allowerasing hostname && \
     dnf clean all && \
-    rm -rf /var/cache/yum && \
-    hostname devspace
+    rm -rf /var/cache/yum
+
+# Setting the hostname
+RUN hostname devspace
 
 # Install Skaffold
 RUN curl -sSL https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64 -o /usr/local/bin/skaffold && \
