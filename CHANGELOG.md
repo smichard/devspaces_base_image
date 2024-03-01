@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.15 (2024-03-01)
+
+### Bug Fixes
+- :bug: removed custom entrypoint script [`605ff6c`](https://github.com/smichard/devspaces_base_image/commit/605ff6c)
+
+## 0.1.14 (2024-03-01)
+
+### Documentation
+- :robot: changelog file generated [`0104951`](https://github.com/smichard/devspaces_base_image/commit/0104951)
+
+### Chore
+- update quay.io/michard/devspaces_base_image docker tag to v0.1.13 [`3a2b3d5`](https://github.com/smichard/devspaces_base_image/commit/3a2b3d5)
+
 ## 0.1.13 (2024-03-01)
 
 ### Bug Fixes
