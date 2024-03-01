@@ -144,7 +144,7 @@ fi
 
 # Here, we ensure that if zsh is available and the command is not specified,
 # we default to zsh. Otherwise, we execute the provided command.
-if [ -z "$@" ]; then
+if [ $# -eq 0 ]; then
   # Default to zsh if no command is specified
   exec zsh
 else
