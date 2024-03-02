@@ -30,6 +30,6 @@ RUN sed -i 's#/bin/bash#/bin/zsh#g' /etc/passwd && \
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && \
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k && \
     wget -O ~/.zshrc https://gist.githubusercontent.com/smichard/aa95623add96c4405f1314bdf9f6784d/raw/f6ef299ad9520b994363c4919ba9ab91559a8309/my_theme_10k.zshrc && \
-    wget -O ~/.p10k.zsh https://gist.githubusercontent.com/smichard/e91215bc02017fa6aa5bf9ecb4b14ca5/raw/762174d03954bdf6f38235583bd7e9b1b7fef9f9/my_p10k.zsh
+    wget -O ~/.p10k.zsh https://gist.githubusercontent.com/smichard/e91215bc02017fa6aa5bf9ecb4b14ca5/raw/52e2d5f2e88bb8150cb7a52365e5f57108dfb3ab/my_p10k.zsh
 
 USER 10001
