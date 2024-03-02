@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.16 (2024-03-03)
+
+### Documentation
+- :robot: changelog file generated [`2119e2a`](https://github.com/smichard/devspaces_base_image/commit/2119e2a)
+
+### Style
+- :sparkles: powerlevel10k configuration updated [`58a1371`](https://github.com/smichard/devspaces_base_image/commit/58a1371)
+
 ## 0.1.15 (2024-03-01)
 
 ### Bug Fixes
