@@ -10,6 +10,7 @@
       "redhat.vscode-tekton-pipelines",
       "redhat.ansible",
       "esbenp.prettier-vscode",
-      "laurenttreguier.vscode-simple-icons"
+      "laurenttreguier.vscode-simple-icons",
+      "vivaxy.vscode-conventional-commits"
     ]
 }
