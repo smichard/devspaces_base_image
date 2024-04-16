@@ -17,7 +17,7 @@ This repository contains the Containerfile and related resources for building a 
 
 ## Introduction
 
-This project aims to streamline the setup process for development environments, leveraging the power of containerization and Red Hat DevSpaces. It provides a pre-configured container image based on `registry.redhat.io/devspaces/udi-rhel8:3.10-27`, which includes a suite of essential development tools.
+This project aims to streamline the setup process for development environments, leveraging the power of containerization and Red Hat DevSpaces. It provides a pre-configured container image based on `registry.redhat.io/devspaces/udi-rhel8`, which includes a suite of essential development tools.
 
 ## Getting Started
 
