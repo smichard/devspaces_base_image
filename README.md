@@ -7,6 +7,8 @@ This repository contains the Containerfile and related resources for building a 
 [![Container Registry on Quay](https://img.shields.io/badge/Quay-Container_Registry-46b9e5 "Container Registry on Quay")](https://quay.io/repository/michard/devspaces_base_image)
 [![Start Dev Space](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.ocp.michard.cc#https://github.com/smichard/devspaces_base_image)
 
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.ocp.michard.cc#https://github.com/smichard/devspaces_base_image)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
