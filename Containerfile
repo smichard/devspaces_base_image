@@ -1,4 +1,4 @@
-FROM registry.redhat.io/devspaces/udi-rhel8:3.12-14.1712880528
+FROM registry.redhat.io/devspaces/udi-rhel8:3.13-7.1714978666
 
 USER 0
 
