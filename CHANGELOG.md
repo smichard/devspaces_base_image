@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.20 (2024-05-21)
+
+### Documentation
+- :memo: deleted brocken badge [`ca1b331`](https://github.com/smichard/devspaces_base_image/commit/ca1b331)
+- :memo: updated devspaces badge [`cca7bd5`](https://github.com/smichard/devspaces_base_image/commit/cca7bd5)
+- :memo: updated documentation [`72050d4`](https://github.com/smichard/devspaces_base_image/commit/72050d4)
+- :robot: changelog file generated [`a462c36`](https://github.com/smichard/devspaces_base_image/commit/a462c36)
+
+### Refactor
+- :rocket: updated tag of the base image to the latest version [`653fcfc`](https://github.com/smichard/devspaces_base_image/commit/653fcfc)
+
 ## 0.1.19 (2024-04-17)
 
 ### Documentation
