@@ -1,8 +1,7 @@
 name: on-commit
 on:
   push:
-    paths:
-      - 'Containerfile'
+
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
@@ -26,7 +25,7 @@ jobs:
         WITH_V: false
         
   changelog:
-    needs: trigger_tekton_webhook
+    needs: bump_tag
     runs-on: ubuntu-latest
     name: Generate and Commit Changelog
 
