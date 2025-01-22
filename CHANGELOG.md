@@ -4,6 +4,38 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.21 (2025-01-22)
+
+### Documentation
+- :robot: changelog file generated [`3079477`](https://github.com/smichard/devspaces_base_image/commit/3079477)
+
+### Build
+- :rocket: github workflow adjusted to new build setup [`291ad4e`](https://github.com/smichard/devspaces_base_image/commit/291ad4e)
+- :rocket: github workflow adjusted [`c97f13a`](https://github.com/smichard/devspaces_base_image/commit/c97f13a)
+
+### Chore
+- update dependency ubuntu to v24 [`52280f8`](https://github.com/smichard/devspaces_base_image/commit/52280f8)
+- update anothrnick/github-tag-action action to v1.71.0 [`83f9c8d`](https://github.com/smichard/devspaces_base_image/commit/83f9c8d)
+- update smichard/conventional_changelog action to v2.0.6 [`e46a6bb`](https://github.com/smichard/devspaces_base_image/commit/e46a6bb)
+- update quay.io/michard/tekton_base_image docker tag to v0.1.17 [`7461696`](https://github.com/smichard/devspaces_base_image/commit/7461696)
+- update smichard/conventional_changelog action to v2.0.5 [`dcfca9e`](https://github.com/smichard/devspaces_base_image/commit/dcfca9e)
+- update quay.io/michard/tekton_base_image docker tag to v0.1.14 [`3ac6136`](https://github.com/smichard/devspaces_base_image/commit/3ac6136)
+- update quay.io/michard/devspaces_base_image docker tag to v0.1.20 [`2e0e728`](https://github.com/smichard/devspaces_base_image/commit/2e0e728)
+- update quay.io/michard/devspaces_base_image docker tag to v0.1.19 [`e8375f3`](https://github.com/smichard/devspaces_base_image/commit/e8375f3)
+- update anothrnick/github-tag-action action to v1.69.0 [`028a22f`](https://github.com/smichard/devspaces_base_image/commit/028a22f)
+
+### Other
+- Merge branch 'main' of https://github.com/smichard/devspaces_base_image [`9953cd2`](https://github.com/smichard/devspaces_base_image/commit/9953cd2)
+- Merge pull request #28 from smichard/renovate/ubuntu-24.x [`9dc2a08`](https://github.com/smichard/devspaces_base_image/commit/9dc2a08)
+- Merge pull request #27 from smichard/renovate/anothrnick-github-tag-action-1.x [`5bd7b6b`](https://github.com/smichard/devspaces_base_image/commit/5bd7b6b)
+- Merge pull request #26 from smichard/renovate/smichard-conventional_changelog-2.x [`cfd9bf1`](https://github.com/smichard/devspaces_base_image/commit/cfd9bf1)
+- Merge pull request #25 from smichard/renovate/quay.io-michard-tekton_base_image-0.x [`377a829`](https://github.com/smichard/devspaces_base_image/commit/377a829)
+- Merge pull request #24 from smichard/renovate/smichard-conventional_changelog-2.x [`2ce93a9`](https://github.com/smichard/devspaces_base_image/commit/2ce93a9)
+- Merge pull request #23 from smichard/renovate/quay.io-michard-tekton_base_image-0.x [`b7772f0`](https://github.com/smichard/devspaces_base_image/commit/b7772f0)
+- Merge pull request #22 from smichard/renovate/quay.io-michard-devspaces_base_image-0.x [`993f617`](https://github.com/smichard/devspaces_base_image/commit/993f617)
+- Merge pull request #21 from smichard/renovate/quay.io-michard-devspaces_base_image-0.x [`f868199`](https://github.com/smichard/devspaces_base_image/commit/f868199)
+- Merge pull request #20 from smichard/renovate/anothrnick-github-tag-action-1.x [`2078b5b`](https://github.com/smichard/devspaces_base_image/commit/2078b5b)
+
 ## 0.1.20 (2024-05-21)
 
 ### Documentation
