@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.24 (2025-01-23)
+
+### Documentation
+- :robot: changelog file generated [`b9a9cfb`](https://github.com/smichard/devspaces_base_image/commit/b9a9cfb)
+
+### Build
+- :rocket: notification adjusted [`ed03d23`](https://github.com/smichard/devspaces_base_image/commit/ed03d23)
+- :rocket: new workflow finalized [`dd40a07`](https://github.com/smichard/devspaces_base_image/commit/dd40a07)
+
+## 0.1.23 (2025-01-23)
+
+### Chore
+- update smichard/conventional_changelog action to v2.0.9 [`9d5f570`](https://github.com/smichard/devspaces_base_image/commit/9d5f570)
+
 ## 0.1.22 (2025-01-23)
 
 ### Documentation
