@@ -3,9 +3,17 @@ FROM registry.redhat.io/devspaces/udi-rhel8:3.13-7.1714978666
 USER 0
 
 RUN dnf -y update --allowerasing && \
-    dnf -y install zsh util-linux-user --allowerasing && \
+    dnf -y install zsh util-linux-user fontconfig --allowerasing && \
     dnf clean all && \
     rm -rf /var/cache/yum
+
+# Install MesloLGS NF fonts (required for Powerlevel10k)
+RUN mkdir -p /usr/local/share/fonts/MesloLGS && \
+    curl -sSL "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf" -o "/usr/local/share/fonts/MesloLGS/MesloLGS NF Regular.ttf" && \
+    curl -sSL "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf" -o "/usr/local/share/fonts/MesloLGS/MesloLGS NF Bold.ttf" && \
+    curl -sSL "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf" -o "/usr/local/share/fonts/MesloLGS/MesloLGS NF Italic.ttf" && \
+    curl -sSL "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf" -o "/usr/local/share/fonts/MesloLGS/MesloLGS NF Bold Italic.ttf" && \
+    fc-cache -fv
 
 # Install Skaffold
 RUN curl -sSL https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64 -o /usr/local/bin/skaffold && \
