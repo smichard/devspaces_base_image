@@ -4,6 +4,36 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.29 (2026-05-04)
+
+### Other
+- Merge branch 'main' of https://github.com/smichard/devspaces_base_image [`50f48b5`](https://github.com/smichard/devspaces_base_image/commit/50f48b5)
+- font added to container [`7555233`](https://github.com/smichard/devspaces_base_image/commit/7555233)
+- pipeline adjusted [`d5a5625`](https://github.com/smichard/devspaces_base_image/commit/d5a5625)
+
+## 0.1.28 (2025-11-20)
+
+### Chore
+- update actions/checkout action to v6 [`45e94de`](https://github.com/smichard/devspaces_base_image/commit/45e94de)
+
+## 0.1.27 (2025-08-11)
+
+### Chore
+- update actions/checkout action to v5 [`bdbea7d`](https://github.com/smichard/devspaces_base_image/commit/bdbea7d)
+
+## 0.1.26 (2025-05-07)
+
+### Chore
+- update anothrnick/github-tag-action action to v1.73.0 [`71da49e`](https://github.com/smichard/devspaces_base_image/commit/71da49e)
+
+## 0.1.25 (2025-01-23)
+
+### Documentation
+- :robot: changelog file generated [`1d5d945`](https://github.com/smichard/devspaces_base_image/commit/1d5d945)
+
+### Chore
+- update quay.io/michard/devspaces_base_image docker tag to v0.1.24 [`8fa50e1`](https://github.com/smichard/devspaces_base_image/commit/8fa50e1)
+
 ## 0.1.24 (2025-01-23)
 
 ### Documentation
