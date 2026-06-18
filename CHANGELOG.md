@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## 0.1.31 (2026-06-18)
+
+### Chore
+- update actions/checkout action to v7 [`865bccb`](https://github.com/smichard/devspaces_base_image/commit/865bccb)
+
+## 0.1.30 (2026-05-12)
+
+### Documentation
+- :robot: changelog file generated [`a793c8f`](https://github.com/smichard/devspaces_base_image/commit/a793c8f)
+
+### Chore
+- update quay.io/michard/tekton_base_image docker tag to v0.1.30 [`5800e6c`](https://github.com/smichard/devspaces_base_image/commit/5800e6c)
+
 ## 0.1.29 (2026-05-04)
 
 ### Other
